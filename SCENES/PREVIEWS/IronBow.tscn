@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://by2ifr5mucj6a"]
+
+[ext_resource type="PackedScene" uid="uid://dce6xll706pvb" path="res://GLBS/WeaponPack/IronBow.glb" id="1_v0fgn"]
+
+[node name="IronBow" unique_id=176423595 instance=ExtResource("1_v0fgn")]
+
+[node name="CCDIK3D" type="CCDIK3D" parent="ROOT/Skeleton3D" parent_id_path=PackedInt32Array(1787777204) index="1" unique_id=1599404597]
+mutable_bone_axes = false
+setting_count = 2
+settings/0/target_node = NodePath("../../../TopMarker")
+settings/1/target_node = NodePath("../../../BottomMarker")
+settings/0/root_bone_name = "ArmTop"
+settings/0/root_bone = 2
+settings/0/end_bone_name = "HandAttachTop"
+settings/0/end_bone = 4
+settings/0/extend_end_bone = false
+settings/0/joint_count = 3
+settings/1/root_bone_name = "ArmBottom"
+settings/1/root_bone = 5
+settings/1/end_bone_name = "HandAttachBottom"
+settings/1/end_bone = 7
+settings/1/extend_end_bone = false
+settings/1/joint_count = 3
+settings/0/joints/0/rotation_axis = 3
+settings/0/joints/0/limitation = null
+settings/0/joints/1/rotation_axis = 3
+settings/0/joints/1/limitation = null
+settings/0/joints/2/rotation_axis = 3
+settings/0/joints/2/limitation = null
+settings/1/joints/0/rotation_axis = 3
+settings/1/joints/0/limitation = null
+settings/1/joints/1/rotation_axis = 3
+settings/1/joints/1/limitation = null
+settings/1/joints/2/rotation_axis = 3
+settings/1/joints/2/limitation = null
+
+[node name="TopMarker" type="Marker3D" parent="." index="1" unique_id=423082095]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.219615, 0.535)
+
+[node name="BottomMarker" type="Marker3D" parent="." index="2" unique_id=1722440605]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.219615, 0.535)
